@@ -21,7 +21,7 @@ export class UploadDegreeController {
         { name: 'antiplagiarism_doc', maxCount: 1 },
         { name: 'tutor_letter', maxCount: 1 },
         { name: 'elective_grade', maxCount: 1 },
-        { name: 'academic_clearance', maxCount: 5 },
+        { name: 'academic_clearance', maxCount: 1 },
       ],
       {
         storage: diskStorage({
@@ -104,7 +104,7 @@ export class UploadDegreeController {
         { name: 'antiplagiarism_doc', maxCount: 1 },
         { name: 'tutor_letter', maxCount: 1 },
         { name: 'elective_grade', maxCount: 1 },
-        { name: 'academic_clearance', maxCount: 5 },
+        { name: 'academic_clearance', maxCount: 1 },
       ],
       {
         storage: diskStorage({
